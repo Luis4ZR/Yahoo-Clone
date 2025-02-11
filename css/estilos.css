@@ -34,3 +34,64 @@ header nav{
     display: flex;
     column-gap: 20px;
 }
+
+
+/*========= CONTENIDO ====================
+  ========= PRINCIPAL ====================*/
+
+main{
+    text-align: center;
+    width: 600px;
+    align-self: center;
+}
+
+main .header h2{
+    font-weight: normal;
+    font-size: 40px;
+    color: var(--color-negro);
+    margin-bottom: 15px;
+}
+
+main .header p{
+    color: var(--color-negro);
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+main .header a{
+    color: var(--color-azul);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+main .header a:hover{
+    text-decoration: underline;
+}
+
+main .buscador label{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    column-gap: 15px;
+
+    padding: 10px 15px;
+    border: 1px solid var(--color-gris-gb);
+    box-shadow: 0 1px var(--color-gris-gb);
+    border-radius: 100px;
+}
+
+main .buscador label:hover{
+    box-shadow: 0 3px 5px var(--color-gris-gb);
+}
+
+main .buscador input{
+    flex-grow: 1;
+    border: none;
+    font-size: 18px;
+    color: var(--color-gris);
+    border-right: 1px solid var(--color-gris-gb);
+}
+
+main .buscador input:focus{
+    outline:none;
+}
